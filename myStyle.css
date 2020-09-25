@@ -381,18 +381,30 @@ hr{
 .footer{
     position: absolute;
     top: 4090px;
-    left: 50%;
+    left: 30%;
     transform: translate(-50%);
     color: white;
     font-size: 20px;
-    width: 365px;
+    width: 280px;
     right: 500px;
     font-size: 15px;
     margin-left: 60px;
+    margin-right: 20px;
 }
 }
 
-
+@media only screen and (max-width: 400px){
+    .welcome{
+        zoom: 0.7;
+        font-size: 30px;
+    }
+    .nav{
+        width: 100%;
+    }
+    .p{
+        width: 130px;
+    }
+}
 
 
 
