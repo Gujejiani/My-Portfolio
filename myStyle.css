@@ -32,7 +32,7 @@ html{
     height: 12px;
     width: 80%;
     
-    background: rgb(227, 228, 233);
+    background: rgb(26, 77, 172);
     border-radius: 8px;
     transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.35s;
     z-index: 1000;
@@ -110,11 +110,63 @@ label {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: 1000px;
   background-color: rgb(68, 130, 172);
   background-image: linear-gradient(62deg, #41688f 0%, #130a1d 100%);
 color: white;
 }
+
+
+/* midleeeee */
+#projects{
+    font-size: 40px;
+    display: flex;
+  position: absolute;
+  top: 950;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1200px;
+  background-color: rgb(34, 36, 37);
+  background-image: linear-gradient(62deg, #1c425c 0%, #217388 100%);
+color: white;
+}
+
+/* lasttttttttttttttttttttt */
+.contact-section{
+    font-size: 40px;
+    display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+  background-color: rgb(73, 172, 211);
+  background-image: linear-gradient(62deg, #221f22 0%, #14443c 100%);
+color: white;
+position: absolute;
+top: 2140px;
+height: 1000px;
+
+
+
+}
+.project-section{
+    position: absolute;
+    width: 1020px;
+   
+   
+    left: 50%;
+    transform: translate(-50%);
+  display: flex;
+  flex-direction: row;
+ 
+   flex-wrap: wrap;
+ justify-content: center;
+   
+   
+}
+
  #web{
     display: inline;
     font-weight: 200;
@@ -129,24 +181,17 @@ color: white;
 
 
 
-#projects{
-    font-size: 40px;
-    display: flex;
- 
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  background-color: rgb(73, 172, 211);
-  background-image: linear-gradient(62deg, #2c90a8 0%, #0c3336 100%);
-color: white;
-}
+
 
 .about-section{
-    position: relative;
-    top: -400px;
+    position: absolute;
+    top: 0px;
+    height: 40px;
+    width: 700px;
     border-bottom: 4px solid #5c5c85;
-    line-height: 90px;
+    line-height: 10px;
+    left: 50%;
+    transform: translate(-50%);
 
 }
 
@@ -162,29 +207,20 @@ color: white;
       width: 300px;
       height: 300px;
 
-      background-color: rgb(4, 27, 17);
-      
-      margin: 20px;
-    
+      background-color: rgb(19, 30, 61);
+      padding: 0;
+     margin: 20px;
+     position: relative;
+     top: 10px;
+     align-items: center;
+     justify-content: center;
+   
      
   }
-  .project-section{
-      position: absolute;
-      width: 1020px;
-      margin: auto;
-      left: 50%;
-      transform: translate(-50%);
-    display: flex;
-    flex-direction: row;
-   
-     flex-wrap: wrap;
-   justify-content: center;
-     
-     
- }
+  
  .h5{
     position: absolute;
-    top: 2440px;
+    top: 340px;
     left: 50%;
     transform: translate(-50%);
     font-size: 20px;
@@ -192,11 +228,11 @@ color: white;
 }
 hr{
     position: absolute;
-    top: 2790px;
+    top: 890px;
 }
 .footer{
     position: absolute;
-    top: 2850px;
+    top: 950px;
     left: 50%;
     transform: translate(-50%);
     color: white;
@@ -204,103 +240,50 @@ hr{
     width: 365px;
   
 }
+.h1{
+    position: absolute;
 
- @media only screen and (max-width: 1100px) {
-     #projects{
-         height: 150vh;
-     }
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    font-size: 25px;
+    width: 250px;
+}
 
-     .project-section{
-        width: 690px;
-        top: 1300px;
-     }
-     .about-section{
-        position: relative;
-        top: -560px;
-        border-bottom: 4px solid #5c5c85;
-        line-height: 90px;
-    
-    }
-   
-    .flexLink{
-        position: relative;
-        top: 450px;
-        display: flex;
-        flex-direction: row;
-       
-    }
-    .h5{
-        color: white;
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%);
-        top: 2930px;
-    }
-    hr{
-        position: absolute;
-        top: 3250px;
-    }
-    .footer{
-        position: absolute;
-        top: 3330px;
-        left: 50%;
-        transform: translate(-50%);
-        color: white;
-        font-size: 20px;
-        width: 365px;
-        right: 500px;
-    }
- }
- @media only screen and (max-width: 760px) {
-
-    #projects{
-        height: 250vh;
-    }
-
+ @media only screen and (max-width: 1050px) {
     .project-section{
-       width: 300px;
-       top: 1100px;
+        width: 700px;
     }
     .about-section{
-       position: relative;
-       top: -1160px;
-       border-bottom: 4px solid #5c5c85;
-       line-height: 90px;
-       font-size: 20px;
-   
-   }
-   .work{
-       zoom: 0.7
-   }
-   .flexLink{
-    position: relative;
-    top: 1450px;
-    display: flex;
-    flex-direction: row;
-   
-}
-.h5{
-    color: white;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    top: 5555px;
-}
-hr{
-    position: absolute;
-    top: 4230px;
-}
-.footer{
-    position: absolute;
-    top: 4290px;
-    left: 50%;
-    transform: translate(-50%);
-    color: white;
-    font-size: 20px;
-    width: 365px;
-    right: 500px;
+        font-size: 35px;
+        width: 520px;
+    }
+
+ }
+ @media only screen and (max-width: 720px) {
+.contact-section{
+    top: 3250px;
+
 }
 
+    
+#projects{
+    height: 2250px;
+
+}
+.project-section{
+    width: 300px;
+}
+   
+.about-section{
+    font-size: 29px;
+    width: 430px;
+}
+.h5{
+    font-size: 15px;
+    width: 260px;
+}
  }
 
 
@@ -312,7 +295,7 @@ hr{
 
     }
     #wrapper{
-        zoom:0.6;
+      zoom: 0.6
     }
     .menu{
         text-align: center;
@@ -327,7 +310,7 @@ hr{
         margin: 0;
         position: relative;
         top: 70px;
-        background-color: #b9b9ce;
+        background-color: #25253f;
         
         
 
@@ -336,101 +319,78 @@ hr{
         display: block;
     }
     .welcome{
-        zoom: 0.7
-    }
-    .flex{
-     margin-top: 40px
-    }
-    .project-section{
-        position: absolute;
-        width: 300px;
-        top: 890px;
-        
-     }
-     #projects{
-        height: 260vh;
-    }
-       .work{
-      font-size: 20px;
-      position: relative;
-      top: -300px;
-   }
-   .flexLink{
-    position: relative;
-    top: 1050px;
-    display: flex;
-    flex-direction: row;
-   
-}
-.h5{
-    color: white;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    top: 105px;
-
-    zoom: 0.7;
-    width: 360px;
-
-
- }
- hr{
-    position: absolute;
-    top: 4030px;
-}
-.footer{
-    position: absolute;
-    top: 4090px;
-    left: 30%;
-    transform: translate(-50%);
-    color: white;
-    font-size: 20px;
-    width: 280px;
-    right: 500px;
-    font-size: 15px;
-    margin-left: 60px;
-    margin-right: 20px;
-}
-}
-
-@media only screen and (max-width: 400px){
-    .welcome{
-        zoom: 0.7;
         font-size: 30px;
     }
-    .nav{
-        width: 100%;
-    }
-    .p{
-        width: 130px;
-    }
+   
+  
+     .about-section{
+         font-size: 23px;
+         width: 340px;
+     }
+   
+
+
 }
 
-
-
-
-.contact-section{
-    font-size: 40px;
+.flex-link{
     display: flex;
- 
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  background-color: rgb(73, 172, 211);
-  background-image: linear-gradient(62deg, #221f22 0%, #14443c 100%);
-color: white;
+    flex-direction: row;
+    position: relative;
+    top: 100px;
+   
+    
+   
+     flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
 }
-.p{
+
+.flexLink{
+    margin: 30px;
+    color: #0995b8;
+}
+@media only screen and (max-width: 437px){
+    
+    .flexLink{
+        margin: 15px;
+    }
+    
+    .footer{
+        font-size: 15px;
+        width: 280px;
+       
+    }
+    .about-section{
+        font-size: 19px;
+        width: 290px;
+    }
+}
+@media only screen and (max-width: 358px){
+
+.welcome{
+    font-size: 20px;
+}
+#web{
+ top: -20px;
+ left: 45px;
+
+}
+}
+ .p{
     
     font-size: 20px;
     color: white;
     text-decoration: none; 
     align-items: center;
     justify-content: center;
-    position: relative;
-    left: 70px;
-    top: -10px;
+
+   
+   font-size: 15px;
+   
+    margin: 0;
+    display: flex;
+    align-items: center;
+  
 }
 a{
     text-decoration: none;
@@ -445,29 +405,17 @@ background-color:rgb(72, 173, 219);
 }
 .code{
     display: none;
+    
 }
 
-.flex-link{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    top: 2550px;
-    
-    
-   
-     flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;
-}
-.flexLink{
-    margin: 30px;
-    color: #0995b8;
-}
-#social{
+
+.fa{
     color: yellow;
+  
 }
 
  .flexLink :hover{
     color: #0995b8;
     zoom: 1.1;
+    
  }
