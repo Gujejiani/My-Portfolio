@@ -16,23 +16,24 @@ html{
     position: fixed;
     align-items: center;
     justify-content: right;
-    right: 60px;
+    right: -5px;
+    top: 5px;
    z-index: 4200;
     
 }
 .circle{
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     position: relative;
    
 }
 .line{
     position: absolute;
     
-    height: 12px;
+    height: 5px;
     width: 80%;
     
-    background: rgb(26, 77, 172);
+    background: rgb(78, 101, 143);
     border-radius: 8px;
     transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.35s;
     z-index: 1000;
@@ -82,7 +83,7 @@ html{
     color: gray;
     margin: 0 10px;
     line-height: 70px;
-    
+    padding: 10px;
 
 }
 
@@ -94,8 +95,17 @@ label {
     width: 26px;
     float: right;
 }
+
+.nav a{
+   
+    border-radius: 5px;
+}
+
 .nav a:hover{
     color: white;
+    background-color: #244d53;
+    z-index: 3;
+    
     
 }
 
@@ -132,7 +142,7 @@ color: white;
 color: white;
 }
 
-/* lasttttttttttttttttttttt */
+/* contact-section */
 .contact-section{
     font-size: 40px;
     display: flex;
@@ -230,6 +240,8 @@ hr{
     position: absolute;
     top: 890px;
 }
+
+/* foooter */
 .footer{
     position: absolute;
     top: 950px;
@@ -295,7 +307,7 @@ hr{
 
     }
     #wrapper{
-      zoom: 0.6
+      /* zoom: 0.5  */
     }
     .menu{
         text-align: center;
@@ -311,7 +323,7 @@ hr{
         position: relative;
         top: 70px;
         background-color: #25253f;
-        
+        padding: 0;
         
 
     }
@@ -328,7 +340,9 @@ hr{
          width: 340px;
      }
    
-
+     .menu a{
+        
+     }
 
 }
 
@@ -430,6 +444,7 @@ a{
         width: 185px;
 
     }
+    
 }
 
 
